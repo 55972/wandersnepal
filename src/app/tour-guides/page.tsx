@@ -1,0 +1,1 @@
+import type { Metadata } from 'next'; import TourGuideClient from '@/components/TourGuideClient'; export const metadata: Metadata = { title: 'Expert Tour Guides', description: 'Connect with certified local guides for Nepal travel.' }; export default function TourGuidePage() { return <TourGuideClient /> }

@@ -1,0 +1,1 @@
+import type { Metadata } from 'next'; import SearchClient from '@/components/SearchResultsClient'; export const metadata: Metadata = { title: 'Search Results' }; export default function SearchPage() { return <SearchClient /> }

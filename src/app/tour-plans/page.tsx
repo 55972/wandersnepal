@@ -1,0 +1,1 @@
+import type { Metadata } from 'next'; import TourPlansClient from '@/components/TourPlansClient'; export const metadata: Metadata = { title: 'Tour Plans', description: 'Curated Nepal tour itineraries for every type of traveler.' }; export default function TourPlansPage() { return <TourPlansClient /> }
